@@ -46,14 +46,14 @@ class DataSurahDetail {
         ayat: (json['ayat'] as List<dynamic>?)
             ?.map((e) => AyatSurahDetail.fromJson(e as Map<String, dynamic>))
             .toList(),
-        suratSelanjutnya: json['suratSelanjutnya'] == null
-            ? null
-            : SuratSelanjutnya.fromJson(
-                json['suratSelanjutnya'] as Map<String, dynamic>),
-        suratSebelumnya: json['suratSebelumnya'] == null
-            ? null
-            : SuratSebelumnya.fromJson(
-                json['suratSebelumnya'] as Map<String, dynamic>),
+        // suratSelanjutnya: json['suratSelanjutnya'] == null
+        //     ? null
+        //     : SuratSelanjutnya.fromJson(
+        //         json['suratSelanjutnya'] as Map<String, dynamic>),
+        // suratSebelumnya: json['suratSebelumnya'] == null
+        //     ? null
+        //     : SuratSebelumnya.fromJson(
+        //         json['suratSebelumnya'] as Map<String, dynamic>),
       );
 
   Map<String, dynamic> toJson() => {

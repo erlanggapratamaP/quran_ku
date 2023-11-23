@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quran_ku/data/model/surah_detail_response_model/ayat_surah_detail.dart';
-import 'dart:math' as math;
 
 class SurahDetailItem extends StatelessWidget {
   final List<AyatSurahDetail> dataAyat;
